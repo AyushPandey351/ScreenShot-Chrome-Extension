@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Full Page & Element Screenshot",
+  "version": "1.0",
+  "description": "Capture full-page screenshots, including content inside scrollable elements (e.g. embedded scrollable panels).",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Full Page Screenshot"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
